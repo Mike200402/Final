@@ -1,13 +1,13 @@
 import React from 'react'
 import HeaderPage from './HeaderPage'
 
-const home = () => {
+const AboutPage = () => {
   return (
     <div>
         <HeaderPage/>
-        <h1>Home</h1>
+        <h1>About</h1>
     </div>
   )
 }
 
-export default home
+export default AboutPage
