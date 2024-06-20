@@ -5,12 +5,12 @@ import HomePage from "../componentes/HomePage";
 import DashboardPage from "../componentes/DashboardPage";
 import AboutPage from "../componentes/AboutPage";
 
-const navegacion = () => {
+const Navigation = () => {
   return (
     <BrowserRouter>
 			<Routes>
 				<Route path="/" element={<HeaderPage/>} />
-				<Route path="/HomePage" element={<HomePage />} />
+				<Route path="/HomePage" element={<HomePage/>} />
 				<Route path="/DashboardPage" element={<DashboardPage/>} />
                 <Route path="/AboutPage" element={<AboutPage/>} />
 			</Routes>
@@ -18,4 +18,4 @@ const navegacion = () => {
   )
 }
 
-export default navegacion
+export default Navigation
